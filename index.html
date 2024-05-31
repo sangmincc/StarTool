@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>울산서비스센터 특수공구</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input, div {
+            margin-top: 5px;
+            padding: 8px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px;
+            width: 100%;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>울산서비스센터 특수공구</h1>
+        <label for="tool-number">공구 번호</label>
+        <input type="text" id="tool-number">
+        
+        <label for="quantity">수량</label>
+        <div id="quantity">-</div>
+        
+        <label for="location">위치</label>
+        <div id="location">-</div>
+        
+        <label for="share">공유</label>
+        <div id="share">-</div>
+        
+        <button onclick="searchTool()">검색</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
