@@ -35,6 +35,6 @@ function searchTool() {
         document.getElementById('quantity').textContent = '-';
         document.getElementById('location').textContent = '-';
         document.getElementById('share').textContent = '-';
-        alert('공구 번호를 찾을 수 없습니다.');
+        alert('해당 공구가 없습니다.');
     }
 }
